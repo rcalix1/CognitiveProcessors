@@ -1,0 +1,17 @@
+Change the Clock speed of I2C 400000 (400KHz) or 100000(100KHz)
+
+C:\Program Files (x86)\Arduino\hardware\arduino\sam\libraries\Wire\Wire.h
+
+
+// TWI clock frequency
+	
+static const uint32_t TWI_CLOCK = 400000;
+
+
+or 
+
+
+
+// TWI clock frequency
+	
+static const uint32_t TWI_CLOCK = 100000;
